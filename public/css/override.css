@@ -1,0 +1,127 @@
+:root {
+    /*  */
+    --mainColor: #21636c;
+    --subMainColor:#9170be;
+    --buttonColor: #fff;
+    --subButtonColor : #008f41;
+    --pagesBackgroundColor: #fff;
+
+    /* NavBar  */
+    --navbarBackgroundColor: var(--mainColor);
+    --navbarTextColor: #ffffff;
+    --navbarTextSize: 14px;
+    --headerHeight: 70px;
+
+    /* Main Screen */
+    --mainScreenMarign:5px;
+
+    --baseColor:var(--mainColor);
+    --subBaseColor:var(--subMainColor);
+
+    --textColor:#000000;
+    --textSize:12px;
+
+    /* Create Button */
+    --createButtonColor: var(--subButtonColor);
+    --createButtonTextColor:white;
+    --createButtonTextSize:12px;
+    /* Danger Button  */
+    --dangerButtonColor: var(--mainColor);
+    --dangerButtonTextColor:white;
+    --dangerButtonTextSize:12px;
+
+    /* Modal */
+    --modalFontSize:12px;
+    --modalFieldFontSize:12px;
+
+    /* Paginate Button */
+    --paginateButtonPadding:0px;
+    --paginateButtonMargin : 0px;
+    --paginateButtonFontSize:16px;
+    --paginateButtonFontColor: black;
+    --paginateButtonBackgroundColor : white;
+    --paginateButtonBorderColor : #d4d4d4;
+    --paginateButtonBorderRadius : 0px;
+
+    --paginateButtonFontColorHover: #fff;
+    --paginateButtonBorderHover: 1px solid #ba011a;
+    --paginateButtonBackground:#ba011a;
+    --paginateButtonBoxShadow: none;
+
+    --paginateButtonNextPreiousBorderRadius :3px;
+}
+
+.main-sidebar{
+    background-color:  var(--navbarBackgroundColor) !important;
+  }
+
+  nav .nav li a {
+    color: var(--navbarTextColor) !important;
+  }
+  .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: var(--subBaseColor) !important;
+    color: var(--navbarTextColor) !important;
+    border-radius: 0px;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: var(--subBaseColor) !important;
+    color: var(--navbarTextColor) !important;
+    border-radius: 0px;
+}
+ .user-panel{
+    color: var(--navbarTextColor) !important;
+    height: var(--headerHeight) !important;
+}
+.sidebar{
+    font-size: var(--navbarTextSize) !important;
+}
+.main-header {
+    font-size: var(--navbarTextSize) !important;
+
+}
+
+.content-wrapper{
+    background-color: var(--pagesBackgroundColor);
+}
+
+content{
+    margin: var(--mainScreenMarign) !important;
+}
+.createButton{
+    background-color: var(--createButtonColor) !important;
+    color:  var(--createButtonTextColor) !important;
+    font-size: var(--createButtonTextSize) !important;
+}
+
+.dangerButton{
+    background-color: var(--dangerButtonColor) !important;
+    color:  var(--dangerButtonTextColor) !important;
+    font-size: var(--dangerButtonTextSize) !important;
+}
+
+.pagination{
+    padding: 20px !important;
+    padding-right: 0px !important;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: var(--buttonColor);
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+}
+.page-link {
+    color: black;
+    background-color:var(--buttonColor);
+}
+.page-item:hover .page-link {
+    color: var(--buttonColor);
+    background-color: var(--subMainColor);
+    border-color: var(--subMainColor);
+}
+table.dataTable td {
+    border: none !important;
+}
+table.dataTable th {
+    border-bottom: none !important;
+}

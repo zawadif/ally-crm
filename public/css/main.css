@@ -1,0 +1,55 @@
+.greenButton{
+    background-color: #00a14b !important;
+    border:  #00a14b !important
+}
+.blueButton{
+    background-color: #51337A !important;
+    border: #51337A !important
+}
+.whiteButton{
+    background-color: white !important;
+    border: 1px solid !important;
+    color: black;
+}
+.bi-trash-fill::before {
+    font-size: 20px !important;
+    padding-top: 6px !important;
+}
+.transhColor{
+    color: #b13333 !important;
+}
+.modalMiddle{
+    max-width: 400px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modalLargeMiddle{
+    max-width: 650px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filter-white{
+    filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 660px) {
+    .modalLargeMiddle{
+        max-width: 400px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .modalMiddle{
+        max-width: 350px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modalLargeMiddle{
+        max-width: 350px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

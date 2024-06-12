@@ -1,0 +1,98 @@
+.dataTables_filter {
+            display: none;
+        }
+
+        .error {
+            color: red;
+            font-family: Verdana;
+            font-size: 8pt;
+        }
+        .dataTables_info {
+            display: none;
+        }
+        #challenge-table_info{
+            display: none;
+        }
+        .pac-container {
+            z-index: 9999;
+        }
+
+        #pac-container {
+            z-index: 9999;
+        }
+
+        #editpac-container {
+            z-index: 9999;
+        }
+ select.error {
+    color: black;
+ }
+
+h6,span,th,td{
+    font-size: small;
+}
+
+h6>b{
+    font-size: medium;
+}
+
+.selectLook{
+    border: none;
+    background-color:white;
+}
+.infoBox{
+    border-radius: 4px !important;
+    background-color: var(--mainColor);
+}
+.infocard{
+    background-color: white !important;
+    border: 1px solid black;
+}
+.infoDescription{
+    font-size: 25px !important;
+    font-weight: lighter !important;
+    color: #373737 !important;
+}
+.infoTitle{
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+.border8{
+    border-radius: 8px !important;
+}
+table.dataTable {
+    margin-top: 0px !important;
+}
+.pagination{
+    margin-right: 16px !important;
+    padding: 0px !important;
+}
+.roundedImage{
+    width: 30px;
+    height: 30px;
+}
+div.dt-buttons {
+    float: right !important;
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+.paginate_button{
+    padding: 0px !important;
+}
+button.dt-button:first-child, div.dt-button:first-child, a.dt-button:first-child, input.dt-button:first-child {
+    /* background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important; */
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 2px solid #29a15f !important;
+    border-radius: 8px !important;
+    color: #29a15f !important;
+    font-weight: bolder !important;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none !important; }
+input[type="search"]::-webkit-search-cancel-button {
+  display: none !important;
+}

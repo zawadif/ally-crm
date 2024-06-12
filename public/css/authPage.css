@@ -1,0 +1,202 @@
+/*body, html {*/
+/*    margin: 0;*/
+/*}*/
+/*.background {*/
+/*    !* The image used *!*/
+/*    background-image: url("../img/background/crm1.jpg");*/
+/*    !* Full height *!*/
+/*      height: 100vh;*/
+/*    !* Center and scale the image nicely *!*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    !* filter: brightness(60%); *!*/
+/*}*/
+/*.imageBackground{*/
+/*    !* The image used *!*/
+/*    background-image: url("../img/background/crm1.jpg");*/
+/*    !* Full height *!*/
+/*      height: 100%;*/
+/*    !* Center and scale the image nicely *!*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    !* filter: brightness(60%); *!*/
+/*}*/
+/*.half{*/
+/*    background-color: rgba(0, 0, 0, 0.3);*/
+/*    backdrop-filter: blur(10px);*/
+/*    height: 100%;*/
+/*    width: 470px;*/
+/*    padding-left: 60px ;*/
+/*    padding-right: 60px ;*/
+/*    padding-top: 290px ;*/
+/*    padding-bottom: 60px ;*/
+/*}*/
+/*.inputFieldHeight{*/
+/*height: 35px;*/
+/*}*/
+/*.borderLeftNone{*/
+/*border-left: none;*/
+/*}*/
+/*.borderRightNone{*/
+/*border-right: none;*/
+/*}*/
+/*.font12{*/
+/*font-size: 12px;*/
+/*}*/
+/*.logoPadding{*/
+/*padding-top:260px;*/
+/*}*/
+/*.greenButton{*/
+/*    background-color: #00a14b !important;*/
+/*    border:  #00a14b !important*/
+/*}*/
+/*@media screen and (max-width: 992px) {*/
+/*.background {*/
+/*    height: auto;*/
+/*}*/
+/*.imageBackground{*/
+/*    height: auto;*/
+/*}*/
+/*.half{*/
+/*    padding-top: 60px ;*/
+/*}*/
+/*.logoPadding{*/
+/*    padding-top:100px;*/
+/*    padding-bottom: 30px;*/
+/*}*/
+/*}*/
+/*@media screen and (max-width: 500px) {*/
+/*    .half{*/
+/*        padding-left: 20px !important;*/
+/*        padding-right: 20px !important;*/
+/*    }*/
+/*}*/
+
+/*[type="radio"]:checked,*/
+/*[type="radio"]:not(:checked) {*/
+/*    position: absolute;*/
+/*    left: -9999px;*/
+/*}*/
+/*[type="radio"]:checked + label,*/
+/*[type="radio"]:not(:checked) + label*/
+/*{*/
+/*    position: relative;*/
+/*    padding-left: 28px;*/
+/*    cursor: pointer;*/
+/*    line-height: 20px;*/
+/*    display: inline-block;*/
+/*    color: #666;*/
+/*}*/
+
+/*[type="radio"]:checked + label:before,*/
+/*[type="radio"]:not(:checked) + label:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 19px;*/
+/*    height: 19px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 100%;*/
+/*    background: #fff;*/
+/*}*/
+/*[type="radio"]:checked + label:after,*/
+/*[type="radio"]:not(:checked) + label:after {*/
+/*    content: '';*/
+/*    width: 11px;*/
+/*    height: 11px;*/
+/*    background: gray;*/
+/*    position: absolute;*/
+/*    top: 4px;*/
+/*    left: 4px;*/
+/*    border-radius: 100%;*/
+/*    -webkit-transition: all 0.2s ease;*/
+/*    transition: all 0.2s ease;*/
+/*}*/
+/*[type="radio"]:not(:checked) + label:after {*/
+/*    opacity: 0;*/
+/*    -webkit-transform: scale(0);*/
+/*    transform: scale(0);*/
+/*}*/
+/*[type="radio"]:checked + label:after {*/
+/*    opacity: 1;*/
+/*    -webkit-transform: scale(1);*/
+/*    transform: scale(1);*/
+/*}*/
+/*.intl-tel-input {*/
+/*    width: 100%;*/
+/*}*/
+/*.greenText{*/
+/*    color: green !important;*/
+/*}*/
+/* CSS for the authentication page */
+body {
+    background-image: url('../img/background/crmF.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image remains fixed as the page scrolls */
+    margin: 0;
+    padding: 0;
+    /*background-image: url('path/to/your/image.jpg');*/
+    /*background-size: cover; !* Cover the entire container, ensuring it fills the screen *!*/
+    /*background-position: center; !* Center the image within the container *!*/
+    /*background-repeat: no-repeat;*/
+}
+
+.auth-container {
+    /* Styles for the container wrapping your authentication form */
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity to your preference */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
+.auth-form {
+    /* Styles for the authentication form */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.auth-title {
+    /* Styles for the title of the authentication form */
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.auth-input {
+    /* Styles for input fields */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-input:focus {
+    /* Styles for input fields when focused */
+    outline: none;
+    border-color: #007bff; /* Change to your desired focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow for focus */
+}
+
+.auth-button {
+    /* Styles for the login button */
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    /* Styles for the login button on hover */
+    background-color: #0056b3; /* Darker shade of the primary color */
+}

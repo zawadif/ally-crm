@@ -1,0 +1,38 @@
+.fontSize13{
+    font-size: 13px !important;
+}
+.blackBorder{
+    border: 1px solid black !important;
+}
+.white{
+    background-color:  white !important;
+}
+.height100{
+    height: 100% !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+background-color: white !important;
+color: #51337a;
+border-bottom: 2.5px solid #51337a;
+}
+.lineText{
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    color: #51337a;
+}
+
+.lineText:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #51337a;
+    margin: auto;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none !important; }
+input[type="search"]::-webkit-search-cancel-button {
+  display: none !important;
+}
